@@ -1,4 +1,4 @@
-def gera_senha_forte(comprimento_requisitado_para_a_senha):
+def gera_senha_forte(comprimento_requisitado_para_a_senha: int)->str:
     '''-> Gera uma senha seguera de 12 caracteres ou mais
 
         Parâmetros:
@@ -104,7 +104,7 @@ def gera_senha_forte(comprimento_requisitado_para_a_senha):
 
 
 
-def verifica_se_senha_e_segura(senha):
+def verifica_se_senha_e_segura(senha: str)-> bool:
     '''-> Verifica se uma senha é segura
 
         Parâmetros:
